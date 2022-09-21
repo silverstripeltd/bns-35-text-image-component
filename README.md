@@ -1,1 +1,2 @@
-# bns-35-text-image-component
+# bones-example-module
+An example bones component module
