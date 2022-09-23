@@ -1,7 +1,5 @@
 <?php
 
-<?
-php
 
 namespace App\Blocks;
 
@@ -28,17 +26,12 @@ class TextAndImageBlock extends ElementContent
 
     private static array $has_one = [
         'Image' => Image::class,
-        'ButtonLink' => Link::class,
     ];
 
     private static array $owns = [
         'Image',
-        'ButtonLink'
     ];
 
-    private static array $cares = [
-        'ButtonLink',
-    ];
 
     public function getType(): string
     {
