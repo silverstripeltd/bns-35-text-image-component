@@ -1,0 +1,25 @@
+SilverStripe\Assets\Image:
+  image:
+    Title: Image 1
+    Filename: assets/image1.jpg
+    PopulateFileFrom: app/populate/fixtures/assets/image.png
+
+App\Blocks\TextAndImageBlock:
+  block1:
+    Title: Text and Image block 1
+    HTML: This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content
+    Image: =>SilverStripe\Assets\Image.image
+    Parent: =>DNADesign\Elemental\Models\ElementalArea.about-us
+    ShowTitle: true
+  block2:
+    Title: Text and Image block 2
+    HTML: This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content
+    Image: =>SilverStripe\Assets\Image.image
+    Parent: =>DNADesign\Elemental\Models\ElementalArea.about-us
+    ShowTitle: true
+  block3:
+    Title: Text and Image block 3
+    HTML: This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content This is a content
+    Image: =>SilverStripe\Assets\Image.image
+    Parent: =>DNADesign\Elemental\Models\ElementalArea.about-us
+    ShowTitle: true
